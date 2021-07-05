@@ -1,0 +1,27 @@
+body{
+  background-color: #7f7fda;
+  margin: 0px;
+  padding: 0px;
+}
+.center-box {
+  min-width:500px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background:#fff;
+  border-radius: 5px;
+  min-height:200px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (max-width:500px){
+  .center-boxx{
+    min-width: 90%;
+  }
+}
+#exampleModal{
+  white-space: pre-wrap;
+  overflow:hidden;
+}
